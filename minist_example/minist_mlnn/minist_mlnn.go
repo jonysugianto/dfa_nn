@@ -26,8 +26,8 @@ func WinnerIndex(outputs *matrix.Vector) int {
 }
 
 func main() {
-	var lblfilename = "/data/neocortexid/golang/minist/train-labels.idx1-ubyte"
-	var imagefilename = "/data/neocortexid/golang/minist/train-images.idx3-ubyte"
+	var lblfilename = "/tmp/minist/train-labels.idx1-ubyte"
+	var imagefilename = "/tmp/minist/train-images.idx3-ubyte"
 	var labels = reader.ReadMinistLabel(lblfilename)
 	var dataset = reader.ReadMinistImage(imagefilename)
 	var targets []*matrix.Vector
