@@ -7,7 +7,7 @@ Deep Neural Networks" (https://arxiv.org/abs/1609.01596) and "http://www.breloff
 
 To install:
 
-1. go get https://github.com/jonysugianto/dfa_cnn
+1. go get github.com/jonysugianto/dfa_cnn
 
 2. a) cd minist_example/minist_mlnn (minist recognition using multi layer feed forward network only)
 
